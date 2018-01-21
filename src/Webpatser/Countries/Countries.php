@@ -12,9 +12,9 @@ class Countries extends Model {
 
 	/**
 	 * @var string
-	 * Path to the directory containing countries data.
+	 * Array of countries.
 	 */
-	protected $countries;
+	protected $countries = [];
 
 	/**
 	 * @var string
